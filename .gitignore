@@ -7,3 +7,6 @@ coverage
 yarn-error.log
 .env.local
 .vscode
+.DS_Store
+
+images

@@ -7,7 +7,7 @@
     "build": "tsc --outDir dist",
     "dev": "tsc && concurrently -r \"nodemon dist/index.js\" \"tsc -w --project tsconfig.json\"",
     "lint": "eslint src --ext ts,js",
-    "test": "TZ=UTC jest ."
+    "test": "TZ=UTC jest . --passWithNoTests"
   },
   "author": "Damian Pasek",
   "license": "ISC",
