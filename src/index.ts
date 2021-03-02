@@ -1,3 +1,4 @@
-const a: number = 10
+import config from './config'
+import app from './app'
 
-console.log(a)
+app.listen(config.port, () => console.log(`Listening on port ${config.port}`))
